@@ -1,12 +1,7 @@
 # Hipku
 
-A tiny javascript library to encode IPv6 and IPv4 addresses as haiku.
+Port of a tiny javascript library to encode IPv6 and IPv4 addresses as haiku. Original library: https://github.com/gabemart/hipku
 
-For full documentation and a working demo, check out https://gabrielbrady.com/projects/hipku
-
-## Installation
-
-Install with `npm install hipku`. `index.js` can also be used directly in the browser.
 
 ## Usage
 
@@ -28,10 +23,3 @@ the lines can be separated either by the newline character `\n` or by a space. B
 
     > "254.53.93.114"
 
-### Node.js
-
-    var hipku = require('hipku');
-
-    hipku.encode('127.0.0.1');
-
-    hipku.decode('The weary red dove fights in the empty tundra. Jasmine petals dance.');
